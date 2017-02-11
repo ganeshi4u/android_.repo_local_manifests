@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+
+<project path="device/lenovo/A7010a48" name="ganeshi4u/android_device_lenovo_A7010a48" remote="github" revision="multirom"/>
+
+<project path="kernel/lenovo/A7010a48" name="mohancm100/android_kernel_lenovo_A7010a48" remote="github" revision="cm-13"/>
+
+<!-- multirom sources -->
+    <project name="nkk71/android_bootable_recovery"                  path="bootable/recovery-twrp"       remote="github" revision="android-6.0-mrom" />
+    <project name="CyanogenMod/android_external_busybox"               path="external/busybox"            remote="github" revision="cm-13.0" />
+    <project name="nkk71/multirom"                                     path="system/extras/multirom"      remote="github" revision="master" />
+    <project name="Tasssadar/libbootimg"                               path="system/extras/libbootimg"    remote="github" revision="master" />
+
+</manifest>
